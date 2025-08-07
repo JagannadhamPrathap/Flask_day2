@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block head %}
+<nav>
+    <a href="/">Home</a>
+    <a href="/logout">Logout</a>
+</nav>
+{% endblock %}
+
+{% block content %}
+<h2>Welcome to JP Solutions!</h2>
+<p>Hello, {{ username }} 👋</p>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Login Page{% endblock %}
+
+{% block head %}
+<nav>
+    <a href="/">Home</a>
+    <a href="/login">Login</a>
+</nav>
+{% endblock %}
+
+{% block content %}
+<h2>JP Solutions</h2>
+<p>To continue</p>
+<form action="/login" method="post">
+    <button type="submit" class="login-btn"><a href="/login">Login</a></button>
+</form>
+{% endblock %}
